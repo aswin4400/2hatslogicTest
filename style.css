@@ -312,7 +312,8 @@ text-decoration: underline;
     flex-direction:column;
     justify-content: center;
     align-items: center;
-
+    padding-top:10vmin;
+    padding-bottom:10vmin;
 }
 
 .six .artBoxes {
@@ -341,8 +342,28 @@ text-decoration: underline;
     width:auto;
 }
 
-
-
-.artText {
-
+.six .artText{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
+
+.six .title {
+    font-size:6vmin;
+    font-weight:bold;
+}
+.six .artText .title {
+    font-size:3vmin;
+    font-weight: bold;
+    padding-top:3vmin;
+}
+.six .artText .description {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    font-size:2.5vmin;
+    padding-top:3vmin;
+}
+
