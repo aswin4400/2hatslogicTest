@@ -370,9 +370,10 @@ text-decoration: underline;
 .footer {
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
-    padding-right:30vmin;
-    padding-left:30vmin;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top:10vmin;
+    padding-bottom:10vmin;
 }
 
 .footer .foobox {
@@ -401,7 +402,7 @@ text-decoration: underline;
 }
 
 .foobox .title {
-    font-size:6vmin;
+    font-size:4vmin;
     font-weight: bold;
     padding-top:3vmin;
 }
