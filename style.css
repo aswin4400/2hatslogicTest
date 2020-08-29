@@ -1,18 +1,28 @@
 
   
+@font-face {
+    font-family: 'Open Sans';
+    src: url('Open_Sans/OpenSans-Regular.ttf') format('truetype');
+  }
 
+  @font-face {
+    font-family: 'Playfair';
+    src: url('Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  }
 body {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
     padding:10px;
+    font-family: 'Open Sans';
+    font-size:2.5vmin;
+    color:#2F4F4F;
 }
 
 .one {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    font-size:3vmin;
 }
 .one img {
     max-width: 100%;
@@ -90,10 +100,12 @@ color: #000023;
     display:flex;
     flex-direction:column;
     padding:10vmin;
+
 }
 
 .two .solitude .title {
     font-size:3vw;
+    font-family: 'Playfair';
 }
 
 .price_tag{
@@ -102,12 +114,13 @@ color: #000023;
     padding-top:5vh;
     padding-bottom:5vh;
     justify-content: flex-start;
-    font-size:1.5vw;
+    color:black;
+    
 }
 
 .solitude .description {
 font-size:2.5vmin;
-max-width: 25vw;
+max-width: 30vw;
 }
 .price_tag .dimension{
     margin-left:2vw;
@@ -117,6 +130,8 @@ max-width: 25vw;
     flex-direction:column;
     padding-top:2vh;
     padding-bottom:2vh;
+    font-size:2vmin;
+    color:black;
 }
 .readMore .text {
 text-decoration: underline;
@@ -127,7 +142,7 @@ text-decoration: underline;
     border-width:1px;
     border-style:solid;
     padding:2vmin;
-    width:15vw;
+    width:35vmin;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -135,10 +150,9 @@ text-decoration: underline;
 }
 
 .two .select {
-    font-weight: bold;
-    font-size:1.1vw;
     padding-top:1vh;
     padding-bottom:1vh;
+    color:black;
 }
 .two .options img {
     height: 1.5vmin;
@@ -149,7 +163,6 @@ text-decoration: underline;
 .two .yesOrno {
     display:flex;
     flex-direction:row;
-    font-size:2.5vmin;
     padding-top:2vh;
     padding-bottom:2vh;
     justify-content: space-between;
@@ -195,6 +208,7 @@ text-decoration: underline;
     border-radius: 50%;
     border-style:solid;
     background-color: black;
+    color:black
 }
 
 .two .no {
@@ -211,8 +225,10 @@ text-decoration: underline;
     display:flex;
     flex-direction:row;
     background-color: black;
-    width:15vw;
-    padding:15px;
+    width:38vmin;
+    padding-top:2vmin;
+    padding-bottom:2vmin;
+  
     align-items:center;
     justify-content:center;
     margin-top:2vh;
@@ -228,6 +244,7 @@ text-decoration: underline;
     flex-direction:row;
     justify-content: space-between;
     padding-top:15vmin;
+    color:#2F4F4F
 
 }
 .three .image_holder {
@@ -242,16 +259,17 @@ text-decoration: underline;
     display: flex;
     flex-direction:column;
     padding:5vmin;
+
 }
 
 .three .left .title {
     font-size: 6vmin;
+    font-family: 'Playfair';
 }
 
 .three .left .content {
     max-width: 50vmin;
     min-width:7vmin;
-    font-size:2.5vmin;
     padding-top:3vmin;
  
   }
@@ -264,6 +282,7 @@ text-decoration: underline;
     flex-direction:row;
     justify-content: space-between;
     padding-top:15vmin;
+    color:#2F4F4F
 
 }
 .four .image_holder {
@@ -282,12 +301,12 @@ text-decoration: underline;
 
 .four .left .title {
     font-size: 6vmin;
+    font-family: 'Playfair';
 }
 
 .four .left .content {
     max-width: 50vmin;
     min-width:7vmin;
-    font-size:2.5vmin;
     padding-top:3vmin;
  
   }
@@ -351,19 +370,20 @@ text-decoration: underline;
 
 .six .title {
     font-size:6vmin;
-    font-weight:bold;
+    font-family:'Playfair';
+    color:black;
 }
 .six .artText .title {
     font-size:3vmin;
     font-weight: bold;
     padding-top:3vmin;
+    color:#2F4F4F
 }
 .six .artText .description {
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items:center;
-    font-size:2.5vmin;
     padding-top:3vmin;
 }
 
@@ -384,9 +404,9 @@ text-decoration: underline;
     padding:6vmin;
 }
 .foobox .content {
-    max-width: 30vmin;
+    max-width: 50vmin;
     text-align: center;
-    font-size:3vmin;
+    padding-top:3vmin;
 
 }
 .footer .foobox .icons {
@@ -397,12 +417,48 @@ text-decoration: underline;
 }
 
 .footer .foobox img {
-    height: 2vmin;
-    width:2vmin;
+    height: 2.5vmin;
+    width:2.5vmin;
+    padding-right:3vmin;
+    padding-left:3vmin;
 }
 
 .foobox .title {
     font-size:4vmin;
-    font-weight: bold;
     padding-top:3vmin;
+    font-family:'Playfair';
+    font-weight: 5em;
+}
+input{
+    outline: none;
+    border:0;
+    padding:2vmin;
+    max-width:20vmin;
+}
+.emailContainer{
+margin-top:2vmin;
+width:auto;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+max-width:20vmin;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 2vmin;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 2vmin;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 2vmin;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 2vmin;
+  }
+
+.emailContainer img {
+    height:1vmin;
+    width:4vmin;
+
 }
