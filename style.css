@@ -106,7 +106,7 @@ color: #000023;
 }
 
 .solitude .description {
-font-size:1.2vw;
+font-size:2.5vmin;
 max-width: 25vw;
 }
 .price_tag .dimension{
@@ -230,25 +230,81 @@ text-decoration: underline;
     padding-top:15vmin;
 
 }
+.three .image_holder {
+    padding-top:5vmin;
+}
+.three img {
+    max-width: 100%;
+    height:auto;
+    width:auto;
+}
 .three .left {
     display: flex;
     flex-direction:column;
+    padding:5vmin;
 }
 
 .three .left .title {
-    font-size: 8vmin;
+    font-size: 6vmin;
 }
 
 .three .left .content {
     max-width: 50vmin;
     min-width:7vmin;
+    font-size:2.5vmin;
+    padding-top:3vmin;
+ 
+  }
+
+
+
+
+.four {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-top:15vmin;
+
+}
+.four .image_holder {
+    padding-top:5vmin;
+}
+.four img {
+    max-width: 100%;
+    height:auto;
+    width:auto;
+}
+.four .left {
+    display: flex;
+    flex-direction:column;
+    padding:5vmin;
 }
 
-.three img {
+.four .left .title {
+    font-size: 6vmin;
+}
+
+.four .left .content {
+    max-width: 50vmin;
+    min-width:7vmin;
+    font-size:2.5vmin;
+    padding-top:3vmin;
+ 
+  }
+   .five {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        padding-top:15vmin;
+    
+    }
+    
+
+.five img {
     max-width: 100%;
     height: auto;
     width:auto;
 }
-.three .image_holder {
-    padding:8vmin;
-}
+
+
