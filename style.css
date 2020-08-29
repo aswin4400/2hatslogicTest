@@ -76,7 +76,7 @@ color: #000023;
 
 }
 .two .grey_bg{
-    padding:60px;
+    padding:8vmin;
     background-color: #eeeeee;
 }
 .two .grey_bg img {
@@ -226,6 +226,8 @@ text-decoration: underline;
 .three {
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
+    padding-top:15vmin;
 
 }
 .three .left {
@@ -234,13 +236,19 @@ text-decoration: underline;
 }
 
 .three .left .title {
-
+    font-size: 8vmin;
 }
 
 .three .left .content {
-    max-width: 15vw;
+    max-width: 50vmin;
+    min-width:7vmin;
 }
 
 .three img {
-
+    max-width: 100%;
+    height: auto;
+    width:auto;
+}
+.three .image_holder {
+    padding:8vmin;
 }
