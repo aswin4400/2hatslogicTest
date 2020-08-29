@@ -307,4 +307,42 @@ text-decoration: underline;
     width:auto;
 }
 
+.six {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.six .artBoxes {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.six .artBoxes .artBox {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding:2vmin;
+}
+
+.six .artBoxes .artBox .image_holder{
+    padding:6vmin;
+    background-color: #eeeeee;
+
+}
+
+.six .artBoxes .artBox img{
+    max-width: 100%;
+    height: auto;
+    width:auto;
+}
+
+
+
+.artText {
+
+}
