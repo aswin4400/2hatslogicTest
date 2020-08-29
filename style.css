@@ -161,6 +161,14 @@ text-decoration: underline;
     flex-direction:row;
 }
 
+.two .yesColumn {
+    display: flex;
+    flex-direction:column;
+}
+.two .noColumn {
+    display: flex;
+    flex-direction:column;
+}
 .two .noContainer {
     display: flex;
     flex-direction:row;
