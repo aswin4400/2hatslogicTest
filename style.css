@@ -159,6 +159,7 @@ text-decoration: underline;
 .two .yesContainer {
     display: flex;
     flex-direction:row;
+    margin-top:1.4vw;
 }
 
 .two .yesColumn {
@@ -173,6 +174,7 @@ text-decoration: underline;
     display: flex;
     flex-direction:row;
     justify-content: flex-start;
+    margin-top:1.4vw;
 }
 .two .yes {
     display:flex;
@@ -201,7 +203,7 @@ text-decoration: underline;
     border-radius: 50%;
     border-style:solid;
     border-width:1px;
-
+    margin-right: 1.5vw;
 }
 
 .two .add {
